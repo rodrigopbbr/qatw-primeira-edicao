@@ -5,7 +5,7 @@ export class LoginPage {
     }
 
     async acessaPagina() {
-        await this.page.goto('http://localhost:3000/');
+        await this.page.goto('http://paybank-mf-auth:3000/');
     }
 
     async informaCpf(cpf) {
